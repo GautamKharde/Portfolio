@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <parameter name="message" value="suite level parameter "/>
+  <parameter name="val1" value="500"/>
+  <parameter name="val2" value="600"/>
+  <test name="Test">
+  <parameter name="message" value="normal parameter selected"/>
+  <parameter name="val1" value="50"/>
+  <parameter name="val2" value="60"/>
+    <classes>
+      <class name="TestNGPractice._95_OptionalParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

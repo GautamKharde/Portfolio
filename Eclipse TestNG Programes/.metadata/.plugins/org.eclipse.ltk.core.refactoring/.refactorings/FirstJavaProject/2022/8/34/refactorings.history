@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Binary&apos; to &apos;Page Object Model&apos;&#x0D;&#x0A;- Original project: &apos;FirstJavaProject&apos;&#x0D;&#x0A;- Destination element: &apos;Page Object Model&apos;&#x0D;&#x0A;- Original element: &apos;Binary&apos;" description="Copy folder" element1="Binary" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1660626830062" target="/Page Object Model" units="0" version="1.0"/>
+</session>

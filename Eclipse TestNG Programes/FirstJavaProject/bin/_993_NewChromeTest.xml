@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+  <test name="Test" parallel="classes">
+    <classes>
+      <class name="TestNGPractice._993_NewChromeTest"/>
+      <class name="TestNGPractice._994_NewEdgeTest"/>
+      <class name="TestNGPractice._995_FireFoxTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
