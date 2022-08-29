@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Binary&apos; to &apos;my-maven-app&apos;&#x0D;&#x0A;- Original project: &apos;FirstJavaProject&apos;&#x0D;&#x0A;- Destination element: &apos;my-maven-app&apos;&#x0D;&#x0A;- Original element: &apos;Binary&apos;" description="Copy folder" element1="Binary" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661664895262" target="/my-maven-app" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  	<dependencies>
+  		<group name="CheckT" depends-on="LaunchB"/>
+  		<group name="SignIn" depends-on="CheckT"/>
+  		<group name="SignOut" depends-on="SignIn"/>
+  	</dependencies> 
+  </groups>
+    <classes>
+      <class name="TestNGProgrames.GroupDependency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

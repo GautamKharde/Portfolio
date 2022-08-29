@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+  <parameter name ="value1" value = "10"/>
+   <parameter name ="value2" value = "20"/>	
+    <classes>
+      <class name="TestNGProgrames.ParamterForMultipleTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name ="value1" value = "30"/>
+   <parameter name ="value2" value = "40"/>	
+    <classes>
+      <class name="TestNGProgrames.ParamterForMultipleTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+  <parameter name ="value1" value = "50"/>
+   <parameter name ="value2" value = "60"/>	
+    <classes>
+      <class name="TestNGProgrames.ParamterForMultipleTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
